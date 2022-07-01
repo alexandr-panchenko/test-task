@@ -6,4 +6,4 @@ Test
 
 `npm run test`
 
-Make the all assertions in `src/index.spec.ts` pass without external libraries.
+Make all the assertions in `src/index.spec.ts` pass without external libraries.
