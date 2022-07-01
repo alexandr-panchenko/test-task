@@ -1,0 +1,25 @@
+{
+    "include": ["src/**/*"],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+	"noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+	"noImplicitReturns": true,
+        "target": "es2017",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "incremental": true,
+        "outDir": "dist",
+        "types": [ "mocha" ],
+        "baseUrl": "src",
+    }
+}
